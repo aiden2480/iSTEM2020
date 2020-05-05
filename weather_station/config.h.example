@@ -1,0 +1,7 @@
+// WiFi username and password
+#define WIFISSID "wifi name"
+#define WIFIPASSWORD "wifi password"
+
+// Open Weather Graph
+#define APIKEY "open weather graph api key goes here"
+#define CITYID "7 digit city code for open weather graph"

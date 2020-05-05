@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon":151.21,
+        "lat":-33.87
+    },
+    "weather": {
+        "id":501,
+        "main":"Rain",
+        "description":"moderate rain",
+        "icon":"10d"
+    },
+    "base":"stations",
+    "main":{
+        "temp":19.43,
+        "feels_like":15.9,
+        "temp_min":18.89,
+        "temp_max":20,
+        "pressure":997,
+        "humidity":94
+    },
+    "visibility":10000,
+    "wind":{
+        "speed":9.3,
+        "deg":360
+    },
+    "rain":{
+        "1h":1.97
+    },
+    "clouds":{
+        "all":100
+    },
+    "dt":1585947939,
+    "sys":{
+        "type":1,
+        "id":9600,
+        "country":"AU",
+        "sunrise":1585944560,
+        "sunset":1585986397
+    },
+    "timezone":39600,
+    "id":2147714,
+    "name":"Sydney",
+    "cod":200
+}
