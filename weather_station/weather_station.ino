@@ -61,11 +61,10 @@ void getWeatherData() { // Client function to send/receive GET request data.
   
     while(client.connected() && !client.available()) 
     delay(1);                                          // Waits for data
-    while (client.connected() || client.available())    
-         {                                             // Connected or data available
-           char c = client.read();                     // Gets byte from ethernet buffer
-           result = result+c;
-         }
+    while (client.connected() || client.available()) { // Connected or data available
+        char c = client.read();                        // Gets byte from ethernet buffer
+        result = result+c;
+    }
 
     digitalWrite(LED_BUILTIN, HIGH);
     client.stop(); // Stop client
